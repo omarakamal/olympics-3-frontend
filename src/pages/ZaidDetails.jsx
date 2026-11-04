@@ -14,7 +14,7 @@ function ZaidDetails() {
   }
 
   async function deleteZaid(){
-    const respone = await axios.delete(`${import.meta.env.VITE_BACK_END_SERVER_URL}/zaids/${id}`)
+    const response = await axios.delete(`${import.meta.env.VITE_BACK_END_SERVER_URL}/zaids/${id}`)
     navigate('/zaids')
   }
 
